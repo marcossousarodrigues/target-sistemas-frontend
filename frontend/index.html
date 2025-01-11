@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processo Seletivo - Target Sistemas Frontend</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="_container">
+    <h1>Exercícios do Processo Seletivo</h1>
+   
+        <!-- Questão 1 -->
+        <section class="section">
+            <h2>1. Soma do Índice</h2>
+            <button onclick="calcularSomaIndice()">Calcular SOMA</button>
+            <p id="resultadoSoma"></p>
+        </section>
+
+        <!-- Questão 2 -->
+        <section class="section">
+            <h2>2. Verificar Fibonacci</h2>
+            <label for="numeroFibonacci">Informe um número:</label>
+            <input type="number" id="numeroFibonacci" placeholder="Digite um número">
+            <button onclick="verificarFibonacci()">Verificar</button>
+            <p id="resultadoFibonacci"></p>
+        </section>
+
+        <!-- Questão 3 -->
+        <section class="section">
+            <h2>3. Análise de Faturamento</h2>
+            <label for="faturamento">Informe os valores de faturamento (separados por vírgula):</label>
+            <input type="text" id="faturamento" placeholder="Exemplo: 100,200,0,300">
+            <button onclick="analisarFaturamento()">Analisar</button>
+            <p id="resultadoFaturamento"></p>
+        </section>
+
+        <!-- Questão 4 -->
+        <section class="section">
+            <h2>4. Percentual de Faturamento por Estado</h2>
+            <button onclick="calcularPercentual()">Calcular Percentual</button>
+            <p id="resultadoPercentual"></p>
+        </section>
+
+        <!-- Questão 5 -->
+        <section class="section">
+            <h2>5. Inverter String</h2>
+            <label for="textoString">Informe uma string:</label>
+            <input type="text" id="textoString" placeholder="Digite um texto">
+            <button onclick="inverterString()">Inverter</button>
+            <p id="resultadoString"></p>
+        </section>
+    </section>
+    <footer>
+       <p>&copy;2024 Target Sistemas</p> 
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
